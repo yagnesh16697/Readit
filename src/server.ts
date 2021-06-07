@@ -23,7 +23,7 @@ app.listen(5000, async () => {
   console.log('Server running at http://localhost:5000');
   try {
     await createConnection();
-    console.log('Database Connected!');
+    console.log('Database Connected!!!');
   } catch (error) {
     console.log(error);
   }
